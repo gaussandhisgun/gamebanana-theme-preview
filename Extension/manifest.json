@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Gamebanana Theme Preview",
+    "version": "1.0",
+    "description": "Theme Preview",
+    "permissions": ["tabs", "https://*/*", "http://*/*"],
+    "content_scripts": [{
+      "js": ["main.js"],
+      "matches": ["https://gamebanana.com/scripts/*"],
+      "run_at": "document_idle"
+    }]
+  }
