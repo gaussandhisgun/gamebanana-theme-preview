@@ -1,3 +1,14 @@
+// ==UserScript==
+// @name         gamebanana-theme-preview
+// @namespace    gamebanana.com
+// @version      0.1
+// @description  preview themes lmao
+// @author       darkmechanism
+// @match        https://gamebanana.com/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=github.com
+// @grant        none
+// ==/UserScript==
+
 setTimeout(function() {
 if (document.querySelector("#UiThemeInstallerModule > div") != null) {
     
