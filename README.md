@@ -10,3 +10,6 @@ This is an extension (or a userscript) that allows you to ![image](https://user-
 ## How to install it?
 
 Try tapping [this](https://raw.githubusercontent.com/gaussandhisgun/gamebanana-theme-preview/main/Extension/main.js) link. If it shows you the Install button - click there. If it does not - copy the entire page (Ctrl+A - Ctrl+C), open up Tampermonkey and create a new Userscript. Paste the contents you just copied *instead* of auto-generated preset, click File → Save, close the tab. Reload Gamebanana tabs afterwards.
+
+
+P.S. all the credit goes to @darkmechanism - there is precisely zero bytes of my actual code in here. I just wanted a README.
